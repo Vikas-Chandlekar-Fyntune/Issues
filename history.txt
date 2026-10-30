@@ -5,3 +5,5 @@
 3. feat: configure Tailwind CSS
 
 4. feat: configure Shadcn
+
+5. feat: configure tsconfig
