@@ -9,3 +9,5 @@
 5. feat: configure tsconfig
 
 6. feat: configure prettier
+
+7. chore(format): configure automatic Tailwind CSS class sorting with Prettier
