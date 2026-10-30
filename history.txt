@@ -7,3 +7,5 @@
 4. feat: configure Shadcn
 
 5. feat: configure tsconfig
+
+6. feat: configure prettier
