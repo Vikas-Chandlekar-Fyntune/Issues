@@ -1,3 +1,5 @@
 1. init: Initialize project
 
 2. chore: add project history file
+
+3. feat: configure Tailwind CSS
