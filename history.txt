@@ -3,3 +3,5 @@
 2. chore: add project history file
 
 3. feat: configure Tailwind CSS
+
+4. feat: configure Shadcn
