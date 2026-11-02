@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Vite / Next / cache
+.vite/
+.next/
+out/
+
+# Coverage
+coverage/
+
+# Generated CSS (Tailwind output)
+**/*.min.css
+**/*.css.map
+
+# Ignore Tailwind base files (optional)
+src/styles/tailwind.css
+src/styles/globals.css
