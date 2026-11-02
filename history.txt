@@ -9,3 +9,5 @@
 5. feat: configure tsconfig
 
 6. feat: configure lint-staged
+
+6. feat: configure commitlint
