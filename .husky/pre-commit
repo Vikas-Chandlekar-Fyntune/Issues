@@ -1,5 +1,7 @@
 # #!/usr/bin/env sh
 # . "$(dirname -- "$0")/_/husky.sh"
 
-#!/usr/bin/env sh
-npx lint-staged --allow-empty
+# #!/usr/bin/env sh
+# npx lint-staged --allow-empty
+
+pnpm exec lint-staged

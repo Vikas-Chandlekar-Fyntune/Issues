@@ -9,12 +9,12 @@
     "preview": "vite preview",
     "lint": "eslint .",
     "lint:eslint": "eslint",
-    "prepare": "husky",
-    "lint:eslint:fix": "eslint --fix --ext .js,.jsx,.ts,.tsx",
+    "lint:eslint:fix": "eslint --fix",
     "format:check": "prettier --check .",
     "format:fix": "prettier --write .",
     "lint:stylelint": "stylelint \"src/**/*.{css,scss}\"",
     "lint:stylelint:fix": "stylelint \"src/**/*.{css,scss}\" --fix",
+    "prepare": "husky",
     "pre-commit": "lint-staged"
   },
   "dependencies": {
@@ -51,7 +51,7 @@
     "stylelint": "^17.16.0",
     "stylelint-config-standard": "^40.0.0",
     "stylelint-config-tailwindcss": "^1.0.1",
-    "typescript": "npm:@typescript/typescript6@^6.0.0",
+    "typescript": "^6.0.0",
     "prettier": "^3.9.10",
     "prettier-plugin-tailwindcss": "^0.8.1",
     "typescript-eslint": "^8.72.0",
