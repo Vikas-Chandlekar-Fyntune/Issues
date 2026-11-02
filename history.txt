@@ -10,4 +10,6 @@
 
 6. feat: configure lint-staged
 
-6. feat: configure commitlint
+7. feat: configure commitlint
+
+8. feat: configure stylelint
