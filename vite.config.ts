@@ -12,11 +12,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '');
 
   return {
-    plugins: [
-      react(),
-      babel({ presets: [reactCompilerPreset()] }),
-      tailwindcss(),
-    ],
+    plugins: [react(), babel({ presets: [reactCompilerPreset()] }), tailwindcss()],
 
     resolve: {
       alias: {
