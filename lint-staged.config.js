@@ -1,18 +1,9 @@
 const config = {
-  // Sequential execution: if one command fails, subsequent commands won't run.
-  '**/*.{js,jsx,ts,tsx}': [
-    'pnpm run lint:eslint',
-    'prettier --write',
-    // 'pnpm run format:fix',
-    // 'pnpm exec prettier --write',
-  ],
+  '**/*.{js,jsx,ts,tsx}': ['pnpm exec eslint --fix', 'pnpm exec prettier --write'],
 
-  '**/*.{css,scss}': ['pnpm run lint:stylelint', 'prettier --write'],
+  '**/*.{css,scss}': ['pnpm exec stylelint --fix', 'pnpm exec prettier --write'],
 
-  '**/*.{md,mdx,html,json,yml,yaml}': ['prettier --write'],
-
-  // Explicitly ignore TypeScript declaration files.
-  '**/*.d.ts': [],
+  '**/*.{md,mdx,html,json,yml,yaml}': ['pnpm exec prettier --write'],
 };
 
 export default config;
