@@ -1,7 +1,7 @@
 import { Button } from '@/components/ui/button';
 
 const App = () => {
-  console.log('App');
+  console.log('App 2');
 
   return (
     <>
