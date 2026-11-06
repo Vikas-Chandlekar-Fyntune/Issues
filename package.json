@@ -1,6 +1,5 @@
 {
   "name": "issues",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -15,7 +14,10 @@
     "lint:stylelint": "stylelint \"src/**/*.{css,scss}\"",
     "lint:stylelint:fix": "stylelint \"src/**/*.{css,scss}\" --fix",
     "prepare": "husky",
-    "pre-commit": "lint-staged"
+    "pre-commit": "lint-staged",
+    "changeset": "changeset",
+    "version": "changeset version",
+    "release": "changeset version && git add . && git commit -m \"chore(release): v%s\""
   },
   "dependencies": {
     "@base-ui/react": "^1.9.0",
@@ -32,6 +34,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.29.7",
+    "@changesets/cli": "^3.0.3",
     "@commitlint/cli": "^21.2.4",
     "@commitlint/config-conventional": "^21.2.4",
     "@commitlint/types": "^21.2.3",
